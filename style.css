@@ -26,6 +26,8 @@ nav ul li a {
     font-weight: 400;
     font-size: 15px;
     margin-right: 40px;
+    text-decoration: none; 
+    color: black
 }
 
 .profil {
@@ -53,4 +55,74 @@ nav ul li a {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(223, 219, 219);
+    height: auto;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 40px;
+    color: #fff; 
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: black;
+}
+
+.socmed {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socmed li {
+    margin: 0 10px;
+}
+
+.socmed a img:hover {
+    background-color: rgb(164, 177, 177);
+}
+
+.socmed img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-top: 25px;
+}
+
+.bottom-footer {
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.bottom-footer {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.bottom-footer p {
+    color: black;
 }
